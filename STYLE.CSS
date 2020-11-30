@@ -1,0 +1,93 @@
+*{
+margin: 0;
+padding: 0;
+font-family: century gothic;
+
+}
+
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("subhajit.jpg");
+	height:100vh;
+	background-size: cover;
+	background-position: center
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	font-family:sans-serif;
+}
+ ul{
+	float:right;
+	list-style-type:none;
+	margin-top:25px; 
+}
+  ul li{
+ 	display:inline-block;
+ 	font-size: 30px;
+ }
+  ul li a{
+ 	text-decoration: none;
+ 	color:white;
+ 	border:1px solid transparent ;
+ 	border-radius: 50px;
+ 	padding:5px 20px;
+ 	transition:0.6s ease
+ }
+ ul li a:hover{
+ 	background-color:#fff;
+ 	color:#000;
+ }
+ ul li.active a{
+ 	background-color:white;
+ 	color: black;
+ }
+ .logo img{
+ 	float: left;
+ 	width:150px;
+ 	height:auto;
+ 	
+ }
+ .main{
+ 	max-width: 1900px;
+ 	margin: auto;
+ }
+
+.title{
+	position: absolute;
+	top:55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 60px;
+	font-style: inherit;
+	border:10px solid white;
+	border-style: outset;
+	border-radius: 30px;
+
+}
+
+.paragraph{
+	position: absolute;
+	top:97%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.paragraph h4{
+	color: white;
+	font-size:11px;
+}
+.running{position: absolute;
+	top:70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+
+.running h3
+{
+	color:white;
+
+}
